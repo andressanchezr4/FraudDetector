@@ -10,6 +10,8 @@ The best model (XGBoost) achieved a public score of 0.84/1.
 * Superlearner --> Stacked Machine Learning model implmementation.
 * DLs.py --> Autoencoder implementation for anomaly detection and dimensionality reduction. 
 
+At the end of the run.py, the best model also includes a Conformal Prediction layer to measure the uncertainty of the predictions.
+
 ## Requirements
 * Numpy
 * Pandas
