@@ -121,7 +121,7 @@ pipeline = MLsPipeline(train_x, train_y, val_x, val_y, path2scatterplots)
 # ---- Linear models ----
 # Linear regression
 lm_model, pr = pipeline.fit_model('linear')
-lm_lasso, pr_lasso = pipeline.fit_linear_models(model_type="linear", use_lasso=True)
+lm_lasso, pr_lasso = pipeline.fit_model(model_type="linear", use_lasso=True)
 
 # Ridge regression
 lm_ridge, pr_ridge = pipeline.fit_model('ridge')
